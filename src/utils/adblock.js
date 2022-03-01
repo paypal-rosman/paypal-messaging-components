@@ -1,4 +1,4 @@
-import { ZalgoPromise } from 'zalgo-promise/src';
+import { ZalgoPromise } from '@krakenjs/zalgo-promise/src';
 
 /**
  * Check whether or not the current user is running an ad blocker
