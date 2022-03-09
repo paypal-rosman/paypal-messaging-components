@@ -42,17 +42,17 @@
         "test:func:snapshots:ciupdate": "jest --verbose --config tests/functional/v2/jest.snapshotTests.config.js --updateSnapshot"
     },
     "dependencies": {
-        "@paypal/common-components": "^1.0.18",
-        "@paypal/sdk-client": "^4.0.80",
-        "@paypal/sdk-constants": "^1.0.75",
-        "@paypal/sdk-logos": "^1.0.26",
         "@krakenjs/beaver-logger": "^5.0.0",
         "@krakenjs/belter": "^2.0.0",
-        "core-js-pure": "^3.0.1",
         "@krakenjs/jsx-pragmatic": "^3.0.0",
         "@krakenjs/post-robot": "^11.0.0",
         "@krakenjs/zalgo-promise": "^2.0.0",
-        "@krakenjs/zoid": "^10.0.0"
+        "@krakenjs/zoid": "^10.0.0",
+        "@paypal/common-components": "^1.0.24-alpha.1",
+        "@paypal/sdk-client": "^4.0.166-alpha.2",
+        "@paypal/sdk-constants": "^1.0.11-6.alpha-1",
+        "@paypal/sdk-logos": "^1.0.43-alpha.1",
+        "core-js-pure": "^3.0.1"
     },
     "devDependencies": {
         "@babel/register": "^7.10.4",
